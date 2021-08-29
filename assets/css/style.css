@@ -1,0 +1,83 @@
+
+
+/*Estilos Gerais*/
+body, figure, img, div, header, nav, main, ul, li, p, h1, h2, section, a, footer, article{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    
+
+}
+figcaption{
+
+    display:none;
+
+}
+img{
+
+    max-width: 1200px;
+
+}
+
+/*Estilo do Cabeçalho*/
+.cabecalho{}
+
+/*Estilo do Logo*/
+.cabecalho .cabecalho__logo{}
+.cabecalho .cabecalho__logo img{}
+
+/*Estilo do Menu*/
+.cabecalho .cabecalho__menu{}
+.cabecalho .cabecalho__menu ul{}
+.cabecalho .cabecalho__menu ul li{}
+.cabecalho .cabecalho__menu a{}
+
+/*Estilo Área de Configuração*/
+main{}
+
+/*Estilo Seção Destaque*/
+.secaoDestaque{}
+.secaoDestaque .secaoDestaque__imagemDestaque{}
+.secaoDestaque .secaoDestaque__imagemDestaque img{}
+
+.secaoDestaque .secaoDestaque__descricaoDestaque h1{}
+.secaoDestaque .secaoDestaque__descricaoDestaque p{}
+
+.secaoDestaque .secaoDestaque__descricaoDestaque{}
+.secaoDestaque .secaoDestaque__descricaoDestaque a{}
+
+/*Estilo Secao Filmes*/
+.secaoFilmes{}
+.secaoFilmes h2{}
+.secaoFilmes .secaoFilmes__listaFilmes{}
+.secaoFilmes .secaoFilmes__listaFilmes ul{}
+.secaoFilmes .secaoFilmes__listaFilmes ul li{}
+.secaoFilmes .secaoFilmes__listaFilmes ul li figure{}
+.secaoFilmes .secaoFilmes__listaFilmes ul li img{}
+
+/*Estilo Rodapé*/
+
+.rodape
+.rodape .rodape__midiasSociais{}
+.rodape .rodape__midiasSociais ul{}
+.rodape .rodape__midiasSociais ul li{}
+.rodape .rodape__midiasSociais ul a{}
+.rodape .rodape__midiasSociais ul img{}
+
+.rodape .rodape__menuNavegacao{}
+.rodape .rodape__menuNavegacao ul{}
+.rodape .rodape__menuNavegacao ul li{}
+.rodape .rodape__menuNavegacao ul li a{}
+
+.rodape .rodape__linkCodigo{}
+.rodape .rodape p{}
+
+
+
+
+
+
