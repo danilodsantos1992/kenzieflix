@@ -9,7 +9,7 @@ body, figure, img, div, header, nav, main, ul, li, p, h1, h2, section, a, footer
     list-style: none;
     text-decoration: none;
     outline: none;
-    
+
 
 }
 figcaption{
@@ -24,14 +24,26 @@ img{
 }
 
 /*Estilo do Cabeçalho*/
-.cabecalho{}
+.cabecalho{
+
+    background-color: #141414;
+    padding: 16px 0px;
+
+}
 
 /*Estilo do Logo*/
-.cabecalho .cabecalho__logo{}
+.cabecalho .cabecalho__logo{
+
+    text-align: center;
+}
 .cabecalho .cabecalho__logo img{}
 
 /*Estilo do Menu*/
-.cabecalho .cabecalho__menu{}
+.cabecalho .cabecalho__menu, .cabecalho .cabecalho__menuConfiguracao{
+
+    display: none;
+
+}
 .cabecalho .cabecalho__menu ul{}
 .cabecalho .cabecalho__menu ul li{}
 .cabecalho .cabecalho__menu a{}
@@ -40,15 +52,57 @@ img{
 main{}
 
 /*Estilo Seção Destaque*/
-.secaoDestaque{}
-.secaoDestaque .secaoDestaque__imagemDestaque{}
-.secaoDestaque .secaoDestaque__imagemDestaque img{}
+.secaoDestaque{
+
+    background-image: url(../img/destaque.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px 0 22px;
+
+}
+.secaoDestaque .secaoDestaque__imagemDestaque{
+
+    display: none;
+
+}
+.secaoDestaque .secaoDestaque__imagemDestaque img{
+
+    width: 100%;
+    max-width: 180px;
+
+}
 
 .secaoDestaque .secaoDestaque__descricaoDestaque h1{}
-.secaoDestaque .secaoDestaque__descricaoDestaque p{}
+.secaoDestaque .secaoDestaque__descricaoDestaque p{
 
-.secaoDestaque .secaoDestaque__descricaoDestaque{}
+    margin: 10px 0;
+    font-size: 1rem;
+
+}
+.secaoDestaque .secaoDestaque__descricaoDestaque img{
+
+    width: 100%;
+
+}
+
+.secaoDestaque .secaoDestaque__descricaoDestaque{
+
+    color: white;
+
+}
 .secaoDestaque .secaoDestaque__descricaoDestaque a{}
+
+.secaoDestaque .secaoDestaque__navegacaoDestaque a{
+
+    font-size: 0.9rem;
+    background-color: white;
+    color: black;
+    padding: 7px 15px;
+    border-radius: 3px;
+    display: inline-block;
+
+}
 
 /*Estilo Secao Filmes*/
 .secaoFilmes{}
@@ -75,6 +129,9 @@ main{}
 
 .rodape .rodape__linkCodigo{}
 .rodape .rodape p{}
+
+
+
 
 
 
