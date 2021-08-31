@@ -24,9 +24,7 @@ figcaption{
 
 }
 /*img{
-
     max-width: 1200px;
-
 }*/
 
 /*Estilo do Cabeçalho*/
@@ -219,12 +217,112 @@ main{
     border: 1px solid #808080;
     padding: 9px 15px;
     display: inline-block;
-    margin-bottom: 20px;
+    margin: 10px 20px;
 
 }
+
 .rodape .rodape p{}
 
 @media screen and (min-width: 620px) {
-    
+    .secaoDestaque {
+        
+        padding: 110px 20px 52px;
+
+    }
+
+    .secaoDestaque .secaoDestaque__descricaoDestaque {
+
+        max-width: 420px;
+
+    }
+
+    .secaoDestaque .secaoDestaque__descricaoDestaque img {
+
+        width: 100%;
+        max-width: 420px;
+
+    }
+
+    .secaoDestaque .secaoDestaque__descricaoDestaque p{
+
+        font-size: 1.1rem;
+        margin: 14px 0 22px;
+
+    }
+
+    .secaoDestaque .secaoDestaque__navegacaoDestaque a {
+
+        font-size: 1rem;
+        padding: 10px 27px;
+
+    }
+
+    .rodape .rodape__menuNavegacao{
+
+        margin: 16px 0;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+}
+
+
+
+@media screen and (min-width: 991px) {
+
+    .secaoDestaque {
+        
+        padding: 150px 30px 60px;
+
+    }
+
+    .secaoDestaque .secaoDestaque__descricaoDestaque {
+
+        max-width: 420px;
+
+    }
+
+    .secaoDestaque .secaoDestaque__descricaoDestaque img {
+
+        width: 100%;
+        max-width: 420px;
+
+    }
+
+    .secaoDestaque .secaoDestaque__descricaoDestaque p{
+
+        font-size: 1.1rem;
+        margin: 14px 0 22px;
+
+    }
+    .secaoDestaque .secaoDestaque__navegacaoDestaque a {
+
+        font-size: 1rem;
+        padding: 10px 27px;
+
+    }
+
+    .secaoFilmes h2 {
+        
+        font-size: 1.5rem;
+    }
+
+    .secaoDestaque .secaoDestaque__navegacaoDestaque img {
+
+        width: 16px;
+        height: 16px;
+
+    }
+
+    .rodape .rodape__menuNavegacao{
+
+        margin: 16px 0;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+}
 
 }
