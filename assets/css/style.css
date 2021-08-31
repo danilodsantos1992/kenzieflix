@@ -1,5 +1,4 @@
 
-
 /*Estilos Gerais*/
 body, figure, img, div, header, nav, main, ul, li, p, h1, h2, section, a, footer, article{
 
@@ -12,22 +11,23 @@ body, figure, img, div, header, nav, main, ul, li, p, h1, h2, section, a, footer
     font-family: 'Roboto', sans-serif;
 
 }
-/*body{
+
+body{
 
     background: #141414;
 
-}*/
+}
 
 figcaption{
 
     display:none;
 
 }
-img{
+/*img{
 
     max-width: 1200px;
 
-}
+}*/
 
 /*Estilo do Cabeçalho*/
 .cabecalho{
@@ -43,6 +43,7 @@ img{
     text-align: center;
 
 }
+
 .cabecalho .cabecalho__logo img{}
 
 /*Estilo do Menu*/
@@ -51,6 +52,7 @@ img{
     display: none;
 
 }
+
 .cabecalho .cabecalho__menu ul{}
 .cabecalho .cabecalho__menu ul li{}
 .cabecalho .cabecalho__menu a{}
@@ -90,13 +92,13 @@ main{
 .secaoDestaque .secaoDestaque__descricaoDestaque p{
 
     margin: 10px 0;
-    font-size: 1rem;
+    font-size: 0.8rem;
 
 }
 
 .secaoDestaque .secaoDestaque__descricaoDestaque img{
 
-    width: 100%;
+    width: 65%;
 
 }
 
@@ -105,6 +107,7 @@ main{
     color: white;
 
 }
+
 .secaoDestaque .secaoDestaque__descricaoDestaque a{}
 
 .secaoDestaque .secaoDestaque__navegacaoDestaque a{
@@ -112,12 +115,20 @@ main{
     font-size: 0.8rem;
     background-color: white;
     color: black;
-    padding: 7px 15px;
+    padding: 7px 11px;
     border-radius: 3px;
     display: inline-block;
 
+
 }
 
+.secaoDestaque .secaoDestaque__navegacaoDestaque img{
+
+    width: 12.8px;
+    height: 12.8px;
+    margin: 0 4px 0 0;
+
+}
 
 /*Estilo Secao Filmes*/
 .secaoFilmes{
@@ -125,12 +136,15 @@ main{
     color: #E5E5E5;
     padding: 0 20px;
     overflow-x: hidden;
+    margin-top: 6px;
 }
 
 .secaoFilmes__listaFilmes {
 
     display: flex;
     flex-wrap: nowrap;
+    overflow: scroll;
+    margin-top: 20px;
 
 }
 
@@ -140,13 +154,18 @@ main{
 
 }
 
-.secaoFilmes h2{}
+.secaoFilmes h2{
+
+    font-size: 1.2rem;
+
+}
+
 .secaoFilmes .secaoFilmes__listaFilmes {
 
    
-    
-
+  
 }
+
 .secaoFilmes .secaoFilmes__listaFilmes ul{}
 .secaoFilmes .secaoFilmes__listaFilmes ul li{}
 .secaoFilmes .secaoFilmes__listaFilmes ul li figure{}
@@ -154,17 +173,58 @@ main{
 
 
 /*Estilo Rodapé*/
-.rodape
+.rodape{
+
+    background-color: #141414;
+    padding: 0 20px;
+    margin-top: 10px;
+    color: #808080;
+    margin: 10px 0px;
+
+}
+
 .rodape .rodape__midiasSociais{}
-.rodape .rodape__midiasSociais ul{}
-.rodape .rodape__midiasSociais ul li{}
+.rodape .rodape__midiasSociais ul{
+
+    display: flex;
+
+}
+
+.rodape .rodape__midiasSociais ul li{
+
+    margin-right: 8px;
+
+}
+
 .rodape .rodape__midiasSociais ul a{}
 .rodape .rodape__midiasSociais ul img{}
 
-.rodape .rodape__menuNavegacao{}
+.rodape .rodape__menuNavegacao{
+
+    margin: 16px 0;
+
+}
+
 .rodape .rodape__menuNavegacao ul{}
 .rodape .rodape__menuNavegacao ul li{}
-.rodape .rodape__menuNavegacao ul li a{}
+.rodape .rodape__menuNavegacao ul li a{
 
-.rodape .rodape__linkCodigo{}
+    color: #808080;
+
+}
+
+.rodape .rodape__linkCodigo{
+
+    color: #808080;
+    border: 1px solid #808080;
+    padding: 9px 15px;
+    display: inline-block;
+    margin-bottom: 20px;
+
+}
 .rodape .rodape p{}
+
+@media screen and (min-width: 620px) {
+    
+
+}
